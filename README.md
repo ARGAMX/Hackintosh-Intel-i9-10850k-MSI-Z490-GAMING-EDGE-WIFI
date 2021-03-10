@@ -55,6 +55,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - **Audio input**: via Microphone (regular mini-jack 3.5 mm)
 
 # Problems solved
+- [x] **Stuck on 'This version of Mac OS X is not supported'**: added flag ```-no_compat_check``` to ```boot-args```
 - [x] **PS/2 Keyboard not working**: installed ```VoodooPS2Controller.kext```
 - [x] **Ethernet not working**: installed ```LucyRTL8125Ethernet.kext``` https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125
 - [x] **WiFi not working**: installed ```itlwm.kext```: https://openintelwireless.github.io/General/Installation.html and ```HeliPort```: https://openintelwireless.github.io/HeliPort
