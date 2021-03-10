@@ -19,6 +19,7 @@ I think my config should work perfect for the configuration based on:
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
+
 **Read that guide to get basic understanding.**
 
 # Hardware
@@ -56,19 +57,27 @@ https://dortania.github.io/OpenCore-Install-Guide/
 # Problems solved
 - [x] **PS/2 Keyboard not working**: installed ```VoodooPS2Controller.kext```
 - [x] **Ethernet not working**: installed ```LucyRTL8125Ethernet.kext``` https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125
-- [x] **WiFi not working**: installed ```itlwm```: https://openintelwireless.github.io/General/Installation.html and ```HeliPort```: https://openintelwireless.github.io/HeliPort
+- [x] **WiFi not working**: installed ```itlwm.kext```: https://openintelwireless.github.io/General/Installation.html and ```HeliPort```: https://openintelwireless.github.io/HeliPort
 - [x] **Audio not working**: installed ```AppleALC.kext``` and ```alcid``` (```layout-id```) set to ```11```
 - [x] **4k not available**: set ```framebuffer-stolenmem``` to ```00000002``` (was ```00003001```)
 - [x] **OpenGL, OpenCL, iOS Simulator and VLC not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **HDMI monitor not working**: 
 
 set 
+
 (DisplayPort)
+
 ```framebuffer-con0-enable``` to ```01000000```
+
 ```framebuffer-con0-alldata``` to ```03040800 00040000 C7030000```
+
 (HDMI)
+
 ```framebuffer-con1-enable``` to ```01000000```
+
 ```framebuffer-con1-alldata``` to ```01010900 00080000 C7030000```
 
+
 ```framebuffer-con2-enable``` to ```01000000```
+
 ```framebuffer-con2-alldata``` to ```02020A00 00080000 C7030000```
