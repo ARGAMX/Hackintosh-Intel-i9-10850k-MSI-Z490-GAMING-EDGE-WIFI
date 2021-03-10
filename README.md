@@ -10,17 +10,17 @@ You can find my EFI folder in this repository.
 
 I think my config should perfectly work with the configuration based on:
 
-- LGA1200
-- Comet Lake i7/i9
-- Z490
-- MSI GAMING EDGE WIFI
+- **LGA1200**
+- **Comet Lake i7/i9 10xxx**
+- **Z490 Chipset**
+- **MSI GAMING**
 
 **Current Bootloader: OpenCore 0.6.6**
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
 
-**Read that guide to get basic understanding.**
+**Go through that guide to get basic understanding.**
 
 # Hardware
 - CPU: **Intel i9-10850k Comet Lake**
@@ -78,7 +78,8 @@ set
 ```framebuffer-con1-enable``` to ```01000000```
 
 ```framebuffer-con1-alldata``` to ```01010900 00080000 C7030000```
-(-)
+
+(?)
 
 ```framebuffer-con2-enable``` to ```01000000```
 
