@@ -1,0 +1,1 @@
+# Hackintosh-Intel-i9-10850k-MSI-Z490-GAMING-EDGE-WIFI
