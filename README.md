@@ -53,7 +53,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **Hibernate/Sleep/Wake**
 
 # Not working so far
-- **Audio input**: via Microphone (regular mini-jack 3.5 mm)
+- **Audio input**: via Microphone (regular mini-jack 3.5 mm) (but Audio input via USB WebCamera working fine)
 
 # Problems solved
 - [x] **Stuck on 'This version of Mac OS X is not supported'**: added flag ```-no_compat_check``` to ```boot-args```
