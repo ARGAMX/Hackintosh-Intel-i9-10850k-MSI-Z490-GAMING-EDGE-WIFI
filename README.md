@@ -40,8 +40,8 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **Boot successfully** in macOS Catalina 10.15.5 and 10.15.7
 - [x] **USB**
 - [x] **PS/2 Keyboard**
-- [x] **1x DisplayPort Output with 4k Monitor**
-- [x] **1x HDMI Output with FullHD Monitor**
+- [x] **1x DisplayPort** for Output with 4k Monitor
+- [x] **1x HDMI** for Output with FullHD Monitor
 - [x] **Audio output**: ALC1200-VD1 (AppleALC.kext, layout-id=11)
 - [x] **Audio input**: via USB WebCamera
 - [x] **1Gbit Ethernet** (Realtek RTL8125B-CG)
@@ -62,7 +62,14 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **WiFi not working**: installed ```itlwm.kext```: https://openintelwireless.github.io/General/Installation.html and ```HeliPort```: https://openintelwireless.github.io/HeliPort
 - [x] **Audio not working**: installed ```AppleALC.kext``` and ```alcid``` (```layout-id```) set to ```11```
 - [x] **4k not available**: set ```framebuffer-stolenmem``` to ```00000002``` (was ```00003001```)
-- [x] **OpenGL, OpenCL, iOS Simulator and VLC not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+
+- [x] **OpenCL not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+- [x] **OpenGL_GpuTest_OSX_x64_0.7.0 not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+- [x] **VLC not working - crashing**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+- [x] **iOS Simulator not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+- [x] **Firefox crashing on opening**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+- [x] **Safari can't open www.fb.com**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+
 - [x] **HDMI monitor not working**: 
 
 set 
