@@ -53,7 +53,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **Hibernate/Sleep/Wake**
 
 # Not working so far
-- **Audio input**: via Microphone (regular mini-jack 3.5 mm) (but Audio input via USB WebCamera working fine)
+- Issues not discovered.
 
 # Problems solved
 - [x] **Stuck on 'This version of Mac OS X is not supported'**: added flag ```-no_compat_check``` to ```boot-args```
@@ -61,6 +61,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **Ethernet not working**: installed ```LucyRTL8125Ethernet.kext``` https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125
 - [x] **WiFi not working**: installed ```itlwm.kext```: https://openintelwireless.github.io/General/Installation.html and ```HeliPort```: https://openintelwireless.github.io/HeliPort
 - [x] **Audio not working**: installed ```AppleALC.kext``` and ```alcid``` (```layout-id```) set to ```11```
+- [x] **Audio input mini-jack 3.5 mm**: via Microphone not working: installed ```VooDooHDA.kext```
 - [x] **4k not available**: set ```framebuffer-stolenmem``` to ```00000002``` (was ```00003001```)
 
 - [x] **OpenCL not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
