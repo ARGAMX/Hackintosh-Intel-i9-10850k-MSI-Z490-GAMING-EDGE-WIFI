@@ -979,7 +979,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-no_compat_check -cdfon -v debug=0x100 keepsyms=1</string>
+				<string>-no_compat_check -cdfon -v debug=0x100 keepsyms=1 igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>

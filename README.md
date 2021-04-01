@@ -63,6 +63,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **Audio not working**: installed ```AppleALC.kext``` and ```alcid``` (```layout-id```) set to ```11```
 - [x] **Audio input mini-jack 3.5 mm**: via Microphone not working: installed ```VooDooHDA.kext```
 - [x] **4k not available**: set ```framebuffer-stolenmem``` to ```00000002``` (was ```00003001```)
+- [x] **HDMI monitor not working** after wake up: added flag ```igfxonln=1``` to ```boot-args```
 
 - [x] **OpenCL not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **OpenGL_GpuTest_OSX_x64_0.7.0 not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
