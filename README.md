@@ -71,7 +71,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **HDMI monitor not working** after wake up: added flag ```igfxonln=1``` to ```boot-args```
 
 - [x] **OpenCL not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
-- [x] **OpenGL_GpuTest_OSX_x64_0.7.0 not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+- [x] **OpenGL_GpuTest_OSX_x64_0.7.0 not working** (www.geeks3d.com/gputest): set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **VLC not working - crashing**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **iOS Simulator not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **Firefox crashing on opening**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
