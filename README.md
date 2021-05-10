@@ -53,12 +53,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **Hibernate/Sleep/Wake**
 
 # Not working so far
-- [ ] Some applications crashing:
-- **Preview** (Native macOS) app open images ok, but crashing if trying to select some area on image.
-- **Kext Updater** app crashing at start. Version 3.6.0 or any newer. But 3.5.9 version is working ok.
-- **DoxBox** app crashing at start.
-- **Charles** app crashing at start.
-- **Joxi** app crashing when selecting "capture fragment".
+- [ ] Issues not discovered.
 
 # Problems solved
 - [x] **Stuck on 'This version of Mac OS X is not supported'**: added flag ```-no_compat_check``` to ```boot-args```
