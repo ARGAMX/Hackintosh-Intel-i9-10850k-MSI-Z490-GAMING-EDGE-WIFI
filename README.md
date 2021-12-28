@@ -1,6 +1,6 @@
 # Hackintosh-Intel-i9-10850k-MSI-Z490-GAMING-EDGE-WIFI
 
-![About this mac](Images/01.Catalina-10.15.7.png)
+![About this mac](Images/02.BigSur-11.6.png)
 
 Hello folks,
 
