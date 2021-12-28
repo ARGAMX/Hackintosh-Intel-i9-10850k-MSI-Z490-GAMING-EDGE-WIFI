@@ -4,7 +4,7 @@
 
 Hello folks,
 
-I have successfully installed (updated) MacOS Catalina to 10.15.5 on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
+I have successfully installed (updated) MacOS to BigSur 11.6 on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
 
 You can find my EFI folder in this repository.
 
@@ -15,7 +15,7 @@ I think my config should perfectly work with the configuration based on:
 - **Z490 Chipset**
 - **MSI GAMING**
 
-**Current Bootloader: OpenCore 0.6.6**
+**Bootloader: OpenCore 0.7.4**
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
@@ -71,6 +71,12 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **iOS Simulator not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **Firefox crashing on opening**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **Safari can't open www.fb.com**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
+- [x] **USB port not working on BigSur**: 
+use ```USBMap``` app:
+https://github.com/corpnewt/USBMap
+
+Read ```[GUIDE] HOW-TO: Properly Map Your USB Ports for OpenCore/Big Sur 11.4```:
+https://hackintosher.com/forums/thread/guide-how-to-properly-map-your-usb-ports-for-opencore-big-sur-11-4.11426/
 
 - [x] **HDMI monitor not working**: 
 
