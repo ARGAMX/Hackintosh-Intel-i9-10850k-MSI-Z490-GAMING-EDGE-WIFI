@@ -32,26 +32,26 @@ https://dortania.github.io/OpenCore-Install-Guide/
 	- Intel Wi-Fi 6 AX201 (a/b/g/n/ac/ax)
 	- Bluetooth 5.1
 	- USB-C/Thunderbolt port
-- RAM: 2x Kingston DDR4 16Gb 3200MHz pc-25600 (KVR32N22S8/16)
+- RAM: 2x Kingston DDR4 16Gb 3200MHz pc-25600 [KVR32N22S8/16]
 - Storage: WD SN750 NVMe 500GB Black [WDS500G3X0C]
 - Display: 1x DisplayPort 4k Monitor
 - Display: 1x HDMI FullHD Monitor
 
 # Working
-- [x] **Boot successfully** in macOS Catalina 10.15.5 and 10.15.7
-- [x] **USB**
-- [x] **PS/2 Keyboard**
-- [x] **1x DisplayPort** for Output with 4k Monitor
-- [x] **1x HDMI** for Output with FullHD Monitor
-- [x] **Audio output**: ALC1200-VD1 (AppleALC.kext, layout-id=11)
-- [x] **Audio input**: via USB WebCamera
-- [x] **1Gbit Ethernet** (Realtek RTL8125B-CG)
-- [x] **Wifi** (via internal Intel Wi-Fi 6 AX201). 
-- [x] **OpenGL, OpenCL, Metal**
-- [x] **iOS Simulator**
-- [x] **Shutdown**
-- [x] **Restart**
-- [x] **Hibernate/Sleep/Wake**
+- ✅ **Boot successfully** in macOS Catalina 10.15.5, 10.15.7, BigSur 11.6
+- ✅ **USB**
+- ✅ **PS/2 Keyboard**
+- ✅ **1x DisplayPort** for Output with 4k Monitor
+- ✅ **1x HDMI** for Output with FullHD Monitor
+- ✅ **Audio output**: ALC1200-VD1 (AppleALC.kext, layout-id=11)
+- ✅ **Audio input**: via USB WebCamera
+- ✅ **1Gbit Ethernet** (Realtek RTL8125B-CG)
+- ✅ **Wifi** (via internal Intel Wi-Fi 6 AX201). 
+- ✅ **OpenGL, OpenCL, Metal**
+- ✅ **iOS Simulator**
+- ✅ **Shutdown**
+- ✅ **Restart**
+- ✅ **Hibernate/Sleep/Wake**
 
 # Not working so far
 - [ ] Issues not discovered.
