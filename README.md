@@ -33,8 +33,9 @@ https://dortania.github.io/OpenCore-Install-Guide/
 	- Bluetooth 5.1
 	- USB-C/Thunderbolt port
 - RAM: 2x Kingston DDR4 16Gb 3200MHz pc-25600 (KVR32N22S8/16)
-- 1x DisplayPort 4k Monitor
-- 1x HDMI FullHD Monitor
+- Storage: WD SN750 NVMe 500GB Black [WDS500G3X0C]
+- Display: 1x DisplayPort 4k Monitor
+- Display: 1x HDMI FullHD Monitor
 
 # Working
 - [x] **Boot successfully** in macOS Catalina 10.15.5 and 10.15.7
