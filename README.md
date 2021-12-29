@@ -11,7 +11,7 @@ You can find my EFI folder in this repository.
 I think my config should perfectly work with the configuration based on:
 
 - **LGA1200**
-- **Comet Lake i7/i9 10xxx**
+- **Comet Lake i3/i5/i7/i9 10xxx**
 - **Z490 Chipset**
 - **MSI GAMING**
 
