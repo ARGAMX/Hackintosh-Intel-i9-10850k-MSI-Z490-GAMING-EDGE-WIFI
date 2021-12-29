@@ -72,7 +72,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **iOS Simulator not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **Firefox crashing on opening**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **Safari can't open www.fb.com**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
-- [x] **USB port not working on BigSur**: 
+- [x] **USB ports not working on BigSur**: 
 use ```USBMap``` app:
 https://github.com/corpnewt/USBMap
 
