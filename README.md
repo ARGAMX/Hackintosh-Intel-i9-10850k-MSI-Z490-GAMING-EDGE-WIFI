@@ -4,7 +4,7 @@
 
 Hello folks,
 
-I have successfully installed (updated) MacOS to BigSur 11.6 on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
+I have successfully installed (updated) macOS to Big Sur 11.6 on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
 
 You can find my EFI folder in this repository.
 
