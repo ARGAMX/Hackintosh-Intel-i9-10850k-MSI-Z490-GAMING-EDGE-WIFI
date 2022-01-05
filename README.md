@@ -20,7 +20,7 @@ I think my config should perfectly work with the configuration based on:
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
 
-❗❗❗ **Go through that OpenCore-Install-Guide to get basic understanding.** ❗❗❗
+❗❗❗ **Go through that OpenCore-Install-Guide and generate your config.plist to get basic understanding.** ❗❗❗
 
 # Hardware
 - CPU: **Intel i9-10850k Comet Lake**
