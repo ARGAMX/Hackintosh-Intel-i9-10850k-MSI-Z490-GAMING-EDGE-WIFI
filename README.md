@@ -15,7 +15,7 @@ I think my config should perfectly work with the configuration based on:
 - **Z490 Chipset**
 - **MSI GAMING**
 
-**Bootloader: OpenCore 0.7.4**
+**Bootloader: OpenCore 0.7.7**
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
