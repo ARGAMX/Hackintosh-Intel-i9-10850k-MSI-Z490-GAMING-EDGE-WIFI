@@ -4,7 +4,7 @@
 
 Hello folks,
 
-I have successfully installed (updated) macOS to Big Sur 11.6 on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
+I have successfully installed (updated) macOS to Monterey 12.3 on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
 
 You can find my EFI folder in this repository.
 
@@ -15,12 +15,12 @@ I think my config should perfectly work with the configuration based on:
 - **Z490 Chipset**
 - **MSI GAMING**
 
-**Bootloader: OpenCore 0.7.7**
+**Bootloader: OpenCore 0.8.0**
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
 
-❗❗❗ **Go through that OpenCore-Install-Guide and generate your config.plist to get basic understanding.** ❗❗❗
+❗❗❗ **Go through that OpenCore-Install-Guide and generate your config.plist to get basic understanding.**
 
 # Hardware
 - CPU: **Intel i9-10850k Comet Lake**
@@ -38,7 +38,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - Display: 1x HDMI FullHD Monitor
 
 # Working
-- ✅ **Boot successfully** in macOS Catalina 10.15.5, 10.15.7, BigSur 11.6
+- ✅ **Boot successfully** in macOS Catalina 10.15.5, 10.15.7, BigSur 11.6, Monterey 12.3
 - ✅ **USB**
 - ✅ **PS/2 Keyboard**
 - ✅ **1x DisplayPort** for Output with 4k Monitor
