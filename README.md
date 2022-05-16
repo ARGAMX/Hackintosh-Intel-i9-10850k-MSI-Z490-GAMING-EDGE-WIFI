@@ -48,7 +48,6 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - ✅ **Audio output**: ALC1200-VD1 (AppleALC.kext, layout-id=11)
 - ✅ **Audio input**: via USB WebCamera
 - ✅ **1Gbit Ethernet** (Realtek RTL8125B-CG)
-- ✅ **Wifi** (via internal Intel Wi-Fi 6 AX201). 
 - ✅ **OpenGL, OpenCL, Metal**
 - ✅ **iOS Simulator**
 - ✅ **Shutdown**
@@ -62,7 +61,6 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **Stuck on 'This version of Mac OS X is not supported'**: added flag ```-no_compat_check``` to ```boot-args```
 - [x] **PS/2 Keyboard not working**: installed ```VoodooPS2Controller.kext``` https://github.com/acidanthera/VoodooPS2
 - [x] **Ethernet not working**: installed ```LucyRTL8125Ethernet.kext``` https://www.insanelymac.com/forum/topic/343542-lucyrtl8125ethernetkext-for-realtek-rtl8125
-- [x] **WiFi not working**: installed ```itlwm.kext```: https://openintelwireless.github.io/General/Installation.html and ```HeliPort```: https://openintelwireless.github.io/HeliPort
 - [x] **Audio not working**: installed ```AppleALC.kext``` and ```alcid``` (```layout-id```) set to ```11```
 - [x] **Audio input mini-jack 3.5 mm**: via Microphone not working: installed ```VooDooHDA.kext```
 - [x] **4k not available**: set ```framebuffer-stolenmem``` to ```00000002``` (was ```00003001```)
