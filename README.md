@@ -9,7 +9,7 @@ I have successfully installed (updated) macOS to Monterey on my i9-10850k Comet 
 You can find my EFI folder in this repository.
 
 # Version
-- **OpenCore 0.8.0**
+- **OpenCore 0.8.4**
 - **Monterey 12.3**
 
 I think this config should perfectly work with the configuration based on:
