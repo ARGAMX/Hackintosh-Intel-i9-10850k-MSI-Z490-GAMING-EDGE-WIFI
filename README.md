@@ -4,20 +4,21 @@
 
 Hello folks,
 
-I have successfully installed (updated) macOS to Monterey on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
+I have successfully installed (updated) macOS to **Monterey 12.6** on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
 
 You can find my EFI folder in this repository.
 
 # Version
 - **OpenCore 0.8.4**
-- **Monterey 12.3**
 
 I think this config should perfectly work with the configuration based on:
-
 - **LGA1200**
 - **Comet Lake i3/i5/i7/i9 10xxx**
 - **Z490 Chipset**
 - **MSI GAMING**
+
+Suports:
+- **Monterey 12.* **
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
