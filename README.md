@@ -18,7 +18,7 @@ I think this config should perfectly work with the configuration based on:
 - **MSI GAMING**
 
 Suports:
-- **Monterey 12.* **
+- **Monterey 12.x **
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
