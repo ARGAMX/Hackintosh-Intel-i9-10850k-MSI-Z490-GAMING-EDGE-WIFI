@@ -9,7 +9,7 @@ I have successfully installed (updated) macOS to **Monterey 12.6** on my i9-1085
 You can find my EFI folder in this repository.
 
 # Version
-- **OpenCore 0.8.4**
+- **OpenCore 0.8.8**
 
 I think this config should perfectly work with the configuration based on:
 - **LGA1200**
@@ -18,7 +18,7 @@ I think this config should perfectly work with the configuration based on:
 - **MSI GAMING**
 
 Suports:
-- **Monterey 12.x **
+- **Monterey 12.x**
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
