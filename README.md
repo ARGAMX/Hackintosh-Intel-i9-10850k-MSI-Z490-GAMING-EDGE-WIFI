@@ -1,6 +1,6 @@
 # Hackintosh-Intel-i9-10850k-MSI-Z490-GAMING-EDGE-WIFI
 
-![About this mac](Images/03.Monterey-12.3.png)
+![About this mac](Images/04.Ventura-13.3.png)
 
 Hello folks,
 
@@ -17,8 +17,8 @@ I think this config should perfectly work with the configuration based on:
 - **Z490 Chipset**
 - **MSI GAMING**
 
-Suports:
-- **Ventura 13.x **
+Supports:
+- **Ventura 13.x**
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
