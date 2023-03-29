@@ -4,12 +4,12 @@
 
 Hello folks,
 
-I have successfully installed (updated) macOS to **Monterey 12.6** on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
+I have successfully installed (updated) macOS to **Ventura 13.3** on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
 
 You can find my EFI folder in this repository.
 
 # Version
-- **OpenCore 0.8.8**
+- **OpenCore 0.9.0**
 
 I think this config should perfectly work with the configuration based on:
 - **LGA1200**
@@ -18,7 +18,7 @@ I think this config should perfectly work with the configuration based on:
 - **MSI GAMING**
 
 Suports:
-- **Monterey 12.x**
+- **Ventura 13.x **
 
 OpenCore setup was made according to
 https://dortania.github.io/OpenCore-Install-Guide/
@@ -41,7 +41,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - Display: 1x HDMI FullHD Monitor
 
 # Working
-- ✅ **Boot successfully** in macOS Catalina 10.15.5, 10.15.7, BigSur 11.6, Monterey 12.3
+- ✅ **Boot successfully** in macOS Catalina 10.15.7, BigSur 11.6, Monterey 12.6, Ventura 13.3
 - ✅ **USB**
 - ✅ **PS/2 Keyboard**
 - ✅ **1x DisplayPort** for Output with 4k Monitor
@@ -56,7 +56,9 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - ✅ **Hibernate/Sleep/Wake**
 
 # Not working so far
-- [ ] Issues not discovered.
+- [ ] Built-in WiFi was working on BigSurm but after update to Monterey stop working.
+- [ ] Built-in Bluetooth seems not working too.
+- [ ] HDMI Monitor on weakup/turnon inits only after off/on.
 
 # Problems solved
 - [x] **Stuck on 'This version of Mac OS X is not supported'**: added flag ```-no_compat_check``` to ```boot-args```
@@ -73,7 +75,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - [x] **iOS Simulator not working**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **Firefox crashing on opening**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
 - [x] **Safari can't open www.fb.com**: set ```device-id``` to ```9B3E0000``` (was ```C59B0000```)
-- [x] **USB ports not working on BigSur**: 
+- [x] **USB ports not working on BigSur and later**: 
 use ```USBMap``` app:
 https://github.com/corpnewt/USBMap
 
