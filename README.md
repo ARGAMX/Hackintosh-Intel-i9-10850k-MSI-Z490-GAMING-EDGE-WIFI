@@ -26,19 +26,20 @@ https://dortania.github.io/OpenCore-Install-Guide/
 ❗❗❗ **Go through that OpenCore-Install-Guide and generate your config.plist to get basic understanding.**
 
 # Hardware
-- CPU: **Intel i9-10850k Comet Lake**
-- iGPU: **Intel UHD 630**
-- dGPU: **None**
-- Motherboard: **MSI Z490 GAMING EDGE WIFI**:
-	- Audio: Realtek ALC1200-VD1
-	- Ethernet: 2.5Gbit Realtek RTL8125B-CG
-	- Intel Wi-Fi 6 AX201 (a/b/g/n/ac/ax)
-	- Bluetooth 5.1
-	- USB-C/Thunderbolt port
-- RAM: 2x Kingston DDR4 16Gb 3200MHz pc-25600 [KVR32N22S8/16]
-- Storage: WD SN750 NVMe 500GB Black [WDS500G3X0C]
-- Display: 1x DisplayPort 4k Monitor
-- Display: 1x HDMI FullHD Monitor
+
+Component       | Details                                                       
+---------------:|-------------------------------------------------------------- 
+**Motherboard** | MSI Z490 GAMING EDGE WIFI
+**CPU**         | Intel Core i9 10850K (Comet Lake)      
+**iGPU**        | Intel UHD 630
+**dGPU**        | None
+**RAM**         | 2x Kingston DDR4 16Gb 3200MHz pc-25600 [KVR32N22S8/16]
+**MB Audio**    | Realtek ALC1200-VD1
+**MB Ethernet** | 2.5Gbit Realtek RTL8125B-CG
+**MB Wi-Fi**    | Intel Wi-Fi 6 AX201 (a/b/g/n/ac/ax) (unsupported atm)
+**Storage**     | WD SN750 NVMe 500GB Black [WDS500G3X0C]
+**Display 1**   | DisplayPort 3840x2160 Monitor
+**Display 2**   | HDMI 1920x1080 Monitor
 
 # Working
 - ✅ **Boot successfully** in macOS Catalina 10.15.7, BigSur 11.6, Monterey 12.6, Ventura 13.3
@@ -56,7 +57,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 - ✅ **Hibernate/Sleep/Wake**
 
 # Not working so far
-- [ ] Built-in WiFi was working on BigSurm but after update to Monterey stop working.
+- [ ] Built-in WiFi was working on BigSur but after update to Monterey stop working.
 - [ ] Built-in Bluetooth seems not working too.
 - [ ] HDMI Monitor on weakup/turnon inits only after off/on.
 
