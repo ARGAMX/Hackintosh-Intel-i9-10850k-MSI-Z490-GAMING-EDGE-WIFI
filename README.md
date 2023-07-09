@@ -4,12 +4,12 @@
 
 Hello folks,
 
-I have successfully installed (updated) macOS to **Ventura 13.3** on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
+I have successfully installed (updated) macOS to **Ventura 13.4.1** on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
 
 You can find my EFI folder in this repository.
 
 # Version
-- **OpenCore 0.9.0**
+- **OpenCore 0.9.3**
 
 I think this config should perfectly work with the configuration based on:
 - **LGA1200**
@@ -42,7 +42,7 @@ Component       | Details
 **Display 2**   | HDMI 1920x1080 Monitor
 
 # Working
-- ✅ **Boot successfully** in macOS Catalina 10.15.7, BigSur 11.6, Monterey 12.6, Ventura 13.3
+- ✅ **Boot successfully** in macOS Catalina 10.15.7, BigSur 11.6, Monterey 12.6, Ventura 13.4
 - ✅ **USB**
 - ✅ **PS/2 Keyboard**
 - ✅ **1x DisplayPort** for Output with 4k Monitor
