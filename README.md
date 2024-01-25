@@ -1,15 +1,15 @@
 # Hackintosh-Intel-i9-10850k-MSI-Z490-GAMING-EDGE-WIFI
 
-![About this mac](Images/04.Ventura-13.3.png)
+![About this mac](Images/05.Sonoma-14.3.png)
 
 Hello folks,
 
-I have successfully installed (updated) macOS to **Ventura 13.6** on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
+I have successfully installed (updated) macOS to **Sonoma 14.3** on my i9-10850k Comet Lake running on a MSI Z490 GAMING EDGE WIFI.
 
 You can find my EFI folder in this repository.
 
 # Version
-- **OpenCore 0.9.5**
+- **OpenCore 0.9.7**
 
 I think this config should perfectly work with the configuration based on:
 - **LGA1200**
